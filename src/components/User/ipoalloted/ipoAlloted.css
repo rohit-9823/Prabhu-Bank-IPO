@@ -1,0 +1,44 @@
+.ipo-allot-main-input {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.ipo-allot-select {
+  border: 1px solid #ed1c24;
+  width: 250px;
+
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.ipo-allot-select:focus {
+  outline-color: #ed1c24;
+}
+.ipo-allot-input:focus {
+  outline-color: #ed1c24;
+}
+.ipo-allot-input {
+  border: 1px solid #ed1c24;
+  width: 240px;
+
+  padding: 12px 5px;
+  border-radius: 5px;
+}
+.ipo-allo-check-btn {
+  background-color: #ed1c24;
+  border: 1px solid #ed1c24;
+  height: 42px;
+  padding: 0 40px;
+  border-radius: 5px;
+  color: white;
+}
+.ipo-allo-check-btn:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+@media screen and (max-width: 767px) {
+  .ipo-allot-main-input {
+    flex-direction: column;
+  }
+}

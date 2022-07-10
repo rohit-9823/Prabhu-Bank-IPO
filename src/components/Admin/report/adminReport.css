@@ -1,0 +1,135 @@
+.swal2-popup {
+  width: 55em;
+}
+table {
+  /* border: none; */
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+/* .topic {
+  color: #596579;
+} */
+th,
+td {
+  width: 20%;
+}
+.right {
+  float: left;
+  /* background: #f2f2f2; */
+  /* width: 100%; */
+  font-size: 18px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  padding: 16px;
+}
+.swal2-html-container {
+  margin: 0;
+  justify-content: left;
+  font-size: 16px;
+}
+
+/* H
+   T
+   M
+   L 
+   
+   CSS Here of popup */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 15;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: auto;
+  margin-left: 270px;
+  top: 15vh;
+  height: 60vh;
+
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  margin-right: 25px;
+  position: relative;
+  transition: all 1s ease-in-out;
+  overflow-y: scroll;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06d85f;
+}
+.popup .content {
+  width: 100%;
+  max-height: 30%;
+}
+.three-btn {
+  width: 350px;
+  margin: 20px;
+  cursor: pointer;
+  background: #ed1c24;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.three-btn:hover {
+  background-color: #dc5d62;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+}
+
+.share-det-input {
+  margin-bottom: 20px;
+}
+#printbtn {
+  background-color: rgb(29, 29, 231);
+}
+#approvebtn {
+  background-color: rgb(12, 188, 12);
+}
+.btns-div {
+  display: flex;
+  justify-content: center;
+  /* padding: 0px auto!important; */
+}
+.all-btn {
+  display: inline;
+}
+.Component-horizontalScrollContainer-22 div {
+  max-height: 890px !important;
+}

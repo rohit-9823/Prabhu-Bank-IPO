@@ -1,0 +1,183 @@
+.apply-share-form {
+  background: #ffffff;
+  border: 2px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.react-select input {
+  height: 20px !important;
+}
+.iib-border-bottom {
+  border-bottom: 2px solid #cfd0d7;
+  padding: 0px 10px;
+}
+
+.radio-btn {
+  margin-left: 10px;
+  background-color: red;
+}
+.share-apply-form1 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 5%;
+  grid-row-gap: 20px;
+}
+.form-input-share label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #596579;
+}
+#boid_radio,
+#boid_radios {
+  -webkit-appearance: none;
+  opacity: 1;
+}
+.form-input-voucher {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  outline: none;
+  border: 2px solid #cfd0d7;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #596579;
+}
+.form-input-share input {
+  width: 100%;
+  background: #fcfcfd;
+  height: 40px;
+  border: 2px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 0px 15px;
+}
+.form-input-share input:focus {
+  outline: 0.5px solid #cfd0d7;
+}
+
+.form-input-share button {
+  margin-top: 10px;
+  background: #ed1c24;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  min-height: 40px;
+  padding: 10px 20px;
+}
+.form-input-share button:hover {
+  cursor: pointer;
+  background: #cb242a;
+}
+
+/* 2nd row of form  */
+
+.personal-info-form {
+  margin-top: 15px;
+}
+.isminor-checkbox input {
+  margin-top: 10px;
+}
+
+.isminor-checkbox label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #596579;
+}
+.next-but-pubform {
+  margin-top: 2rem;
+  background: #ed1c24;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  float: right;
+  padding: 15px 30px;
+  transition: all 0.2s;
+}
+.next-but-pubform:hover {
+  cursor: pointer;
+  background: #df262c;
+}
+.err-message {
+  color: #df262c;
+}
+.form-input-choose {
+  background: #fff !important;
+  border: none !important;
+}
+.form-input-choose::-webkit-file-upload-button {
+  visibility: hidden;
+  width: 0px;
+}
+.form-input-choose::before {
+  content: "Choose File";
+  display: inline-block;
+  /* background: linear-gradient(top, #f9f9f9, #e3e3e3); */
+  background-color: #fdf4f4;
+  border: 1px solid #dc5d62;
+  border-radius: 5px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  /* -webkit-user-select: none; */
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.form-input-choose:hover::before {
+  /* border-color: black; */
+  border: 2px solid #dc5d62;
+}
+.form-input-choose:active::before {
+  /* background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); */
+  background-color: #dc5d62;
+}
+.form-select-input {
+  width: 100%;
+  background: #fcfcfd;
+  height: 40px;
+  border: 2px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 0px 15px;
+}
+
+/* //boid css */
+.boid-main2 {
+  padding: 10px 11px;
+}
+.boid-input-body {
+  width: 200px;
+}
+.boid-label {
+  margin: 0;
+  padding: 10px 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #795959;
+}
+.else-boid-content {
+  width: 100%;
+}
+.else-boid-content a {
+  margin-top: -10px;
+}

@@ -1,0 +1,53 @@
+.icons-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    margin: 50px 5vw;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-family: 'Mukta';
+    font-style: normal;
+}
+.text-small-icon{
+    /* font-weight: 100;
+    font-size: 16px; */
+    line-height: 24px;
+    display: block;
+    letter-spacing: 0.01em;
+}
+.text-number{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    display: block;
+    letter-spacing: 0.02em;
+}
+.icon-card{
+    padding: 25px 15px;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+#clr1{
+    background: #1071E5;
+}
+#clr2{
+    background: #C056ED;
+}
+#clr3{
+    background: #F06648;
+}
+#clr4{
+    background: #2DB539;
+}
+.icon-position{
+    float: right;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.admin-dropdown{
+    float: right;
+    width: 220px;
+    padding-right: 5vw;
+    margin-top: 10px;
+}

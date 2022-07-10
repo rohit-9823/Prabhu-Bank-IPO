@@ -1,0 +1,58 @@
+@media print { 
+
+    /* body * {
+        display: none;
+      }
+       */
+       .sidebar{
+           display: none;
+       }
+       .top-bar{
+        display: none;
+    }
+      .printable-area {
+        display: block;
+      }
+      .print-btn{
+          display: none;
+      }
+      .MuiCheckbox-root  {
+        display: none;
+      }
+      
+} 
+
+  
+  .printable-area {
+    display: block !important;
+  }
+  .print-btn {
+    margin-top: 10px;
+    background: #ed1c24;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    color: white;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    float: right;
+  }
+  .three-btn{
+      width: 350px;
+      margin: 20px;
+      cursor: pointer;
+      background: #ed1c24;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  .three-btn:hover{
+    background-color: #dc5d62;
+  }
+  .button_show{
+    padding: 10px;
+    background-color: blue;
+  }

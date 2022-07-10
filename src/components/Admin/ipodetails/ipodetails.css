@@ -1,0 +1,196 @@
+.IpoBody {
+  margin: 32px;
+  padding: 25px 10px 0px 25px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.btn-danger {
+  margin-right: 20px;
+}
+.ipo-form {
+  width: 85%;
+  margin: 8px auto;
+  background-color: #fff;
+  border: 1px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#btn-selected {
+  background: #cd171f !important;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.btn-details {
+  cursor: pointer;
+  background: #ebedf1;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #cd171f;
+  margin: 0px 8px;
+  padding: 12px 24px;
+  margin-top: 40px;
+}
+.ipo-box {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-column-gap: 16px;
+  padding: 16px;
+  padding-top: 0px;
+}
+.ipo-label {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #596579;
+  margin-bottom: 8px;
+}
+.ipo-field {
+  width: 100%;
+  margin-top: 5px;
+}
+.ipo-field-ckedit {
+  width: 97.5%;
+  margin-top: 16px;
+  padding: 10px;
+}
+.ck.ck-editor__main > .ck-editor__editable {
+  height: 200px;
+}
+.ipo-input {
+  width: 98%;
+  background: #fcfcfd;
+  border: 1px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 16px;
+}
+.ipo-input-ward {
+  padding: 12px;
+}
+.add-btn {
+  background: #cd171f;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 32px;
+  border: none;
+
+  margin-top: 25px;
+}
+.add-btn:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+.button-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.submit-div {
+  float: right;
+  margin-top: 45px;
+  margin-right: 18px;
+  margin-bottom: 25px;
+}
+.submit-btn {
+  background: #cd171f;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 32px;
+  border: none;
+}
+.form-control::-webkit-file-upload-button {
+  visibility: hidden;
+  width: 0px;
+}
+.form-control::before {
+  content: "Choose File";
+  display: inline-block;
+  /* background: linear-gradient(top, #f9f9f9, #e3e3e3); */
+  background-color: #fdf4f4;
+  border: 1px solid #dc5d62;
+  border-radius: 5px;
+  padding: 0px 8px;
+  outline: none;
+  white-space: nowrap;
+  /* -webkit-user-select: none; */
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.form-control:hover::before {
+  /* border-color: black; */
+  border: 2px solid #dc5d62;
+}
+.form-control:active::before {
+  /* background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); */
+  background-color: #dc5d62;
+}
+.buttons-line {
+  margin: 30px;
+}
+/* View */
+.view-body {
+  margin: 30px;
+}
+.MuiPaper-elevation2 {
+  width: 75vw;
+  margin: 0px auto;
+}
+@media screen and (min-width: 1500px) {
+  .MuiPaper-elevation2 {
+    width: 77vw;
+  }
+}
+.date-field {
+  margin-top: 26px;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 98%;
+  background-color: #fcfcfd;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 15.5px 14px !important;
+  font-size: small !important;
+}
+.css-1s2u09g-control {
+  border: 2px solid #cfd0d7 !important;
+}
+.css-1s2u09g-control,
+.css-1pahdxg-control {
+  /* height: 40px; */
+  background-color: #fcfcfd !important;
+}
+.css-6j8wv5-Input {
+  height: 30px !important;
+}
+.css-b62m3t-container {
+  margin-top: 10px;
+}
+.css-319lph-ValueContainer {
+  padding: 0px 8px !important;
+}
+.css-6j8wv5-Input {
+  margin: 0px 2px !important;
+  padding: 0% !important;
+}
+.error-addbtn {
+  color: red;
+  margin-left: 20px;
+  position: relative;
+  top: -80px;
+  font-size: 15px;
+}
+.MuiTableBody-root {
+  font-size: 12px;
+}

@@ -1,0 +1,77 @@
+.apply-share-form {
+  background: #ffffff;
+  border: 2px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.iib-border-bottom {
+  border-bottom: 2px solid #cfd0d7;
+  padding: 0px 10px;
+}
+
+.share-apply-form1 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 5%;
+  grid-row-gap: 20px;
+}
+.form-input-share label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #596579;
+}
+.form-input-share input {
+  width: 100%;
+  background: #fcfcfd;
+  height: 40px;
+  border: 2px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 0px 15px;
+}
+.form-input-share input:focus {
+  outline: 0.5px solid #cfd0d7;
+}
+
+.form-input-share button {
+  margin-top: 10px;
+  background: #ed1c24;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  min-height: 40px;
+  padding: 10px 20px;
+}
+.form-input-share button:hover {
+  cursor: pointer;
+  background: #cb242a;
+}
+
+/* 2nd row of form  */
+
+.personal-info-form {
+  margin-top: 15px;
+}
+.isminor-checkbox input {
+  margin-top: 10px;
+}
+
+.isminor-checkbox label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #596579;
+}
